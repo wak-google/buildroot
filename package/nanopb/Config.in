@@ -1,2 +1,4 @@
 config BR2_PACKAGE_NANOPB
 	bool "nanopb"
+	depends on BR2_PACKAGE_PROTOBUF
+	depends on BR2_PACKAGE_PYTHON_PROTOBUF

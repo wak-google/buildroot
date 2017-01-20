@@ -1,7 +1,5 @@
 config BR2_PACKAGE_PBLOG
 	bool "pblog"
-	depends BR2_PACKAGE_HOST_NANOPB
-	select BR2_PACKAGE_HOST_NANOPB
 	help
 	  Pblog is a protobuf based logging library.
 
